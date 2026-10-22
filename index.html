@@ -666,8 +666,8 @@ $("file").onchange=function(){if(this.files[0])importFile(this.files[0]);this.va
 /* ---------- cloud sync (Supabase) ---------- */
 /* Optional: fill these in so every device is ready without typing them in Settings.
    SUPABASE_KEY must be the PUBLISHABLE key (sb_publishable_...). Never put a secret key in a web page. */
-const SUPABASE_URL="";
-const SUPABASE_KEY="";
+const SUPABASE_URL="https://tfkjpkbwfocsurgtsijt.supabase.co";
+const SUPABASE_KEY="sb_publishable_dF_7d15BtGJfFZOYyUr-0Q_IB6xGk8Z";
 const SB_SRC="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.118.0/dist/umd/supabase.js";
 const CFGKEY="tracker-sb-cfg",SYNCKEY="tracker-sb-sync";
 let sb=null,sbUser=null,pushTimer=0,busy=false,again=false,conflictRemote=null;
